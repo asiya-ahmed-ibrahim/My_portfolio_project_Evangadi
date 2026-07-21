@@ -1,0 +1,101 @@
+// import evangadiImg from "../assets/evangadi-forum.png";
+// import hotelImg from "../assets/hotel-site.png";
+// import chatgptImg from "../assets/chatgpt-clone.png";
+
+import evangadiImg from "../assets/images/AI_forum.png";
+import hotelImg from "../assets/images/Natay_hotel.png";
+import chatgptImg from "../assets/images/Chat-gpt.png";
+
+const projects = [
+  {
+    id: "evangadi-forum",
+    title: "Evangadi AI Forum",
+    description: "A Q&A forum platform built as part of a team project.",
+    image: evangadiImg,
+    tags: ["Web", "Full-Stack"],
+    problem:
+      "Students learning at Evangadi needed a place to ask questions, get answers, and discuss topics as a team — built to practice real-world full-stack collaboration.",
+    role: "Frontend developer on a 6-person team — built the Dashboard, Post Question, Question Detail, RAG Documents, and Discussion Summary Panel pages, plus contributed on backend and deployment.",
+    solution:
+      "A forum-style Q&A platform with Google OAuth login, and an AI-powered RAG (Retrieval-Augmented Generation) feature — the assistant pulls answers directly from uploaded documents instead of guessing, plus a Discussion Summary Panel that condenses long threads into a quick overview.",
+    challenges:
+      "Deploying to Railway surfaced real config bugs — a missing 'port' field in the MySQL setup and a mismatched environment variable name (DB_PASS vs DB_PASSWORD) that took real debugging to track down. Also resolved Google OAuth integration issues and a Vite/Tailwind v4 config conflict.",
+    techStack: [
+      "React",
+      "Vite",
+      "Express",
+      "MySQL",
+      "Railway",
+      "Vercel",
+      "Google OAuth",
+    ],
+    liveLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: "hotel-site",
+    title: "Hotel Website",
+    description: "A commercial website built for a freelance client.",
+    image: hotelImg,
+    tags: ["Web", "Freelance"],
+    problem: "",
+    role: "",
+    solution: "",
+    challenges: "",
+    techStack: [],
+    liveLink: "#",
+    githubLink: "#",
+  },
+  {
+    id: "chatgpt-clone",
+    title: "ChatGPT Clone",
+    description: "An AI chat interface built to explore AI integration.",
+    image: chatgptImg,
+    tags: ["AI", "Web"],
+    problem: "",
+    role: "",
+    solution: "",
+    challenges: "",
+    techStack: [],
+    liveLink: "#",
+    githubLink: "#",
+  },
+  {
+  id: "chatgpt-clone",
+  title: "ChatGPT Clone",
+  description: "An AI chat interface built to explore AI integration.",
+  image: chatgptImg,
+  tags: ["AI", "Web"],
+  problem:
+    "An individual Evangadi coursework assignment to practice integrating a real AI API into a full-stack application, built solo start to finish.",
+  role:
+    "Built entirely solo — frontend, backend, database, and deployment.",
+  solution:
+    "A ChatGPT-style chat interface powered by the Gemini API, with a React frontend and an Express/MySQL backend handling chat logic and storage.",
+  challenges:
+    "Deployment and environment variable debugging — similar config issues to the Forum project, tracking down mismatched env variable names and database connection settings between local and production.",
+  techStack: ["React", "Express", "MySQL", "Gemini API", "Railway", "Vercel"],
+  liveLink: "#",
+  githubLink: "#",
+},
+{
+  id: "hotel-site",
+  title: "Natay Hotel Website",
+  description: "A commercial hotel website built for a freelance client.",
+  image: hotelImg,
+  tags: ["Web", "Freelance"],
+  problem:
+    "A freelance client, Natay Hotel in Addis Ababa, needed a full commercial website to showcase their property and services online.",
+  role:
+    "Sole developer — designed and built the entire site as a freelance deliverable.",
+  solution:
+    "A custom-designed hotel website with an Ethiopian-inspired visual identity, built on React with a Node/Express and MySQL backend.",
+  challenges: "",
+  techStack: ["React", "Node.js", "Express", "MySQL"],
+  liveLink: "#",
+  githubLink: "#",
+},
+
+];
+
+export default projects;

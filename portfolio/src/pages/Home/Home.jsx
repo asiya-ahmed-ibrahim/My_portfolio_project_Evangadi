@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profileImg from "../../assets/images/asiya.jpg";
+import profileImg from "../../assets/images/image.png";
 import styles from "./Home.module.css";
 // import About from "../About/About";
 
@@ -11,6 +11,7 @@ function Home() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
+        id="home"
       >
         <motion.img
           src={profileImg}

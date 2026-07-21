@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 function About() {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <h1 className={styles.heading}>About Me</h1>
 
       <p className={styles.paragraph}>
@@ -39,8 +39,8 @@ function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <h3>Evangadi Tech</h3>
-          <p>Full-stack web development course</p>
+          <h3>ODA SBS</h3>
+          <p>Completed my highschool at Oromia Development Association Special Boarding School</p>
         </motion.div>
 
         <motion.div
@@ -50,8 +50,8 @@ function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <h3>Evangadi AI Forum</h3>
-          <p>Built as frontend developer on a team project</p>
+          <h3>Evangadi</h3>
+          <p>AI powerd Full-stack web development course</p>
         </motion.div>
 
         <motion.div
@@ -61,8 +61,8 @@ function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <h3>Freelance Work</h3>
-          <p>Building commercial client websites</p>
+          <h3>STEM</h3>
+          <p>Took STEM course and partipated in the 8th annual science fair</p>
         </motion.div>
       </div>
     </section>

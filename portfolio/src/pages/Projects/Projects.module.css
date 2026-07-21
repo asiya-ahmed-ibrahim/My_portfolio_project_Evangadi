@@ -1,0 +1,46 @@
+.projects {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: var(--text-dark);
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.filterBtn {
+  background: transparent;
+  border: 1px solid var(--text-secondary);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.active {
+  background: var(--black);
+  border-color: var(--black);
+  color: var(--text-light);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,85 @@
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+
+.heading {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  color: var(--text-dark);
+}
+
+.subheading {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin: 8px 0 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.input, .textarea {
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  background: white;
+}
+
+.submitBtn {
+  background: var(--accent);
+  color: var(--text-light);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.success {
+  color: green;
+  font-size: 13px;
+}
+
+.errorMsg {
+  color: #c0392b;
+  font-size: 13px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.linkItem {
+  color: var(--text-dark);
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.location {
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
