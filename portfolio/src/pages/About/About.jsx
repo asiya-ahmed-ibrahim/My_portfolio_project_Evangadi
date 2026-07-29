@@ -40,7 +40,10 @@ function About() {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <h3>ODA SBS</h3>
-          <p>Completed my highschool at Oromia Development Association Special Boarding School</p>
+          <p>
+            Completed my highschool at Oromia Development Association Special
+            Boarding School
+          </p>
         </motion.div>
 
         <motion.div
