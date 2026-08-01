@@ -13,7 +13,7 @@ function About() {
         skills in front-end and back-end development.
       </p>
       <p className={styles.paragraph}>
-        Currently I'm a student at Shaggar Institute of Technology, pursuing my
+        Currently I'm a first year student at Shaggar Institute of Technology, planning to pursue my
         bachelor's degree in AI and IT. I'm highly motivated in my academics and
         I engage well in new opportunities. I use a logical approach when it
         comes to problem solving.
@@ -29,7 +29,8 @@ function About() {
           transition={{ duration: 0.5 }}
         >
           <h3>Shaggar Institute of Technology</h3>
-          <p>Started BSc in AI and IT</p>
+          <p>first year student</p>
+          {/* Started BSc in AI and IT */}
         </motion.div>
 
         <motion.div

@@ -23,7 +23,7 @@ function Home() {
         />
         <div className={styles.textContent}>
           <h1 className={styles.headline}>Hi, I'm Asiya Ahmed</h1>
-          <p className={styles.tagline}>Full-Stack Developer & AI/IT Student</p>
+          <p className={styles.tagline}>Full-Stack Developer & Tech Student</p>
           <div className={styles.buttons}>
             <motion.button
               className={styles.primaryBtn}
